@@ -322,3 +322,138 @@ elif price > 50:
 else:
   print("Low Price")
 
+#Else as Fallback (.....................................................................................................)
+
+username = "Emil"
+if len(username) > 0:
+  print(f"Welcome, {username}!")
+else:
+  print("Error: Username cannot be empty")
+
+#4) Python Shorthand If
+
+a = 200
+b = 33
+if a > b: print("a is greater than b")
+
+marks = 85
+if marks > 80: print("Grade A")
+
+price = 101
+if marks > 100: print("High Price")
+
+temperature = 31
+if temperature > 30: print("It's hot outside!")
+
+age = 54
+if age >= 40: print("Senior")
+
+#Short Hand If ... Else
+a = 2
+b = 330
+print("A") if a > b else print("B")
+
+marks = 85
+print("PAAS") if marks >= 20 else print("FAIL")
+
+tmp = 20
+print("Cold Outside") if tmp < 10 else print("Warm outside")
+
+age = 39
+print("Senior") if age >= 40 else print("Adult")
+
+price = 89
+print ("High Price") if price > 100 else print("Low Price")
+
+number = 25
+print ("even") if number % 2 == 0 else print("odd")
+
+#Assign a Value With If ... Else (.................................................................)
+a = 10
+b = 20
+bigger = a if a > b else b
+print("Bigger is", bigger)
+
+#Multiple Conditions on One Line
+a = 330
+b = 330
+print("A") if a > b else print("=") if a == b else print("B")
+
+a = 721
+b = 721
+print("A > B") if a > b else print("B > A") if a < b else print("A = B")
+
+price = 49
+print ("High") if price > 100 else print("Medium") if price > 50 else print("Low")
+  
+marks = 29
+print("Grade A") if marks > 90 else print("Grade B") if marks >= 30 else print("FAIL")
+
+tmp = 2
+print("Hot outside!") if tmp > 30 else print("Warm outside") if tmp > 20 else print("cool outside") if tmp > 10 else print("cold outside!")
+
+#Example(.............................................................................................................................)
+x = 15
+y = 20
+max_value = x if x > y else y
+print("Maximum value:", max_value)
+
+username = ""
+display_name = username if username else "Guest"
+print("Welcome,", display_name)
+
+#5) Python Logical Operators
+
+#The and Operator
+a = 200
+b = 33
+c = 500
+if a > b and c > a:
+  print("Both conditions are True")
+
+a = 20
+b = 20
+c = 500
+if a < c and a == b:
+  print("only one condition is ture")
+
+#Example(office)
+a = 25
+b = 58
+if a > b:
+    print("a is greter than b")
+elif a < b:
+    print("b is greter than a")
+elif a == b:
+    print("a is equals to b")
+else: 
+    print("a != b")
+
+
+makrs = 92
+if makrs >= 90:
+    print("Grade A")
+    if makrs >95:
+     print("Excellent")
+    else:
+     print("very very good")
+elif makrs >= 80:
+    print("Grade B")
+    if makrs >85:
+     print(" very Goodd")
+    else:
+     print("good")
+elif makrs >= 70:
+    print("Grade C")
+    if makrs >75:
+     print("Need Focus")
+    else:
+     print("improve yourself")
+elif makrs >= 30:
+    print("Grade D")
+    if makrs >35:
+     print("need improvement")
+    else:
+     print("Daily 5hr of study")
+else:
+    print("Fail")

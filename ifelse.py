@@ -116,7 +116,7 @@ elif temperature > 10:
 else:
   print("It's cold outside!")
 
-#Else as Fallback
+#Else as Fallback (.....................................................................................................)
 username = "Emil"
 if len(username) > 0:
   print(f"Welcome, {username}!")
@@ -134,7 +134,7 @@ a = 2
 b = 330
 print("A") if a > b else print("B")
 
-#Assign a Value With If ... Else
+#Assign a Value With If ... Else (.................................................................)
 a = 10
 b = 20
 bigger = a if a > b else b
@@ -145,7 +145,7 @@ a = 330
 b = 330
 print("A") if a > b else print("=") if a == b else print("B")
 
-#Example
+#Example(.............................................................................................................................)
 x = 15
 y = 20
 max_value = x if x > y else y
