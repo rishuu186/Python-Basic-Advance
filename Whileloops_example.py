@@ -38,12 +38,6 @@ while age < 25:
 #         break
 
 #3
-Player = "Alive"
-while Player == "Alive":
-  game = input("are you playing game?")
-  print(game)
-  if game == "no":
-     print("player is dead")
-     break
 
-
+        
+    
