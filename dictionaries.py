@@ -226,7 +226,7 @@ thisdict =	{
   "year": 1964
 }
 del thisdict
-print(thisdict) #this will cause an error because "thisdict" no longer exists.
+# print(thisdict) #this will cause an error because "thisdict" no longer exists.
 
 #clear() empties the dictionary
 thisdict = {

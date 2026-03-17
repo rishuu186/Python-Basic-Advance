@@ -504,3 +504,16 @@ thisdict = {
 }
 r = thisdict.values()
 print(r)
+
+studentinfo = {
+  "Name":"Rishita",
+  "Surname":"Sainy",
+  "DOB":"18/6/2005",
+  "Age":21
+}
+print(studentinfo)
+print(studentinfo["Age"])
+print(studentinfo.keys())
+print(studentinfo.values())
+print(studentinfo.items())
+print(studentinfo.get("Name"))

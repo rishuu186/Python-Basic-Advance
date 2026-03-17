@@ -30,14 +30,20 @@ while age < 25:
    age += 1
 
 #2
-# travel = "yes"
-# while travel == "yes":
-#    person = input("you want to travel?")
-#    print(person)
-#    if person == "no":
-#         break
+travel = "yes"
+while travel == "yes":
+   person = input("you want to travel?")
+   #print(person)
+   if person == "no":
+        break
 
 #3
+Player = "Alive"
+while Player == "Alive":
+  game = input("are you playing game?")
+  print(game)
+  if game == "no":
+     print("player is dead")
+     break
 
-        
-    
+

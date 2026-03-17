@@ -296,10 +296,10 @@ for i in page:
    print(i)
 
 #4
-# exercise = True
-# pushups = input("how many push ups you can do ?")
-# for i in range(10):
-#    print(i)
+exercise = True
+pushups = input("how many push ups you can do ?")
+for i in range(10):
+   print(i)
 
 #5
 photos = "delete"
@@ -307,10 +307,10 @@ for i in range(5):
    print(i)
 
 #6
-# Chocolate = True 
-# share = input("are you want to share chocolate?")
-# for i in range(5):
-#    print(i)
+Chocolate = True 
+share = input("are you want to share chocolate?")
+for i in range(5):
+   print(i)
 
 #7
 birthday_photos = "post"
